@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Mon Nov  3 00:46:57 2025 CST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /filespace/m/mjindal2/ece555/ECE555/ADD2x3/schematic/sch.oa.cdslck.dirlck
-TimeEditLocked                 Mon Nov  3 02:09:59 2025 CST
+FilePathUsedToEditLock         /filespace/m/mjindal2/ece555/ECE555/ADD2x3/symbol/symbol.oa.cdslck
+TimeEditLocked                 Mon Nov  3 00:51:31 2025 CST
