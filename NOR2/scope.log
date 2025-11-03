@@ -1,0 +1,74 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+1276+425
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/m/mjindal2/ece555/ECE555/NOR2/test-1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+wm geometry .sigmgr._PF:1 290x359+1920+1080
+wm geometry .sigmgr._PF:1 292x361+1920+1080
+wm geometry .sigmgr._PF:1 300x367+1920+1080
+wm geometry .sigmgr._PF:1 336x396+1920+1080
+wm geometry .sigmgr._PF:1 398x444+1920+1080
+wm geometry .sigmgr._PF:1 482x508+1920+1080
+wm geometry .sigmgr._PF:1 572x580+1920+1080
+wm geometry .sigmgr._PF:1 658x650+1920+1080
+wm geometry .sigmgr._PF:1 740x716+1920+1080
+wm geometry .sigmgr._PF:1 814x774+1920+1080
+wm geometry .sigmgr._PF:1 876x820+1920+1080
+wm geometry .sigmgr._PF:1 924x856+1920+1080
+wm geometry .sigmgr._PF:1 962x882+1920+1080
+wm geometry .sigmgr._PF:1 985x896+1920+1080
+wm geometry .sigmgr._PF:1 996x901+1920+1080
+wm geometry .sigmgr._PF:1 1002x903+1920+1080
+wm geometry .sigmgr._PF:1 1004x903+1920+1080
+wm geometry .sigmgr._PF:1 1005x903+1920+1080
+wm geometry .sigmgr._PF:1 1007x903+1920+1080
+wm geometry .sigmgr._PF:1 1009x900+1920+1080
+wm geometry .sigmgr._PF:1 1009x898+1920+1080
+pf:read PF:1 v(y) v(b) v(a)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+wm geometry .sigmgr 467x236+1704+545
+wm geometry .sigmgr 467x236+1711+545
+wm geometry .sigmgr 467x236+1779+545
+wm geometry .sigmgr 467x236+1845+547
+wm geometry .sigmgr 467x236+1911+547
+wm geometry .sigmgr 467x236+1971+547
+wm geometry .sigmgr 467x236+2015+547
+wm geometry .sigmgr 467x236+2034+547
+wm geometry .sigmgr 467x236+2039+547
+wm geometry .sigmgr 467x236+2040+546
+wm geometry .sigmgr 467x236+2040+547
+wm geometry .sigmgr 467x236+2038+548
+wm geometry .sigmgr 467x236+2025+553
+wm geometry .sigmgr 467x236+2009+559
+wm geometry .sigmgr 467x236+1993+562
+wm geometry .sigmgr 467x236+1976+564
+wm geometry .sigmgr 467x236+1968+566
+wm geometry .sigmgr 467x236+1964+566
+wm geometry .sigmgr 467x236+1963+567
+wm geometry .sigmgr 467x236+1962+567
+wm geometry .sigmgr 467x236+1960+567
+wm geometry .sigmgr 467x236+1958+567
+wm geometry .sigmgr 467x236+1957+567
+wm geometry .sigmgr 467x236+1955+567

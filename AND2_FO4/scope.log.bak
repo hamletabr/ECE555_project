@@ -1,0 +1,510 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/m/mjindal2/ece555/ECE555/AND2_FO4/test-1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+1728+540
+wm geometry .sigmgr 376x204+522+164
+wm geometry .sigmgr 376x204+978+126
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+1122+392
+wm geometry .sigmgr._PF:1 300x470+1122+392
+wm geometry .sigmgr._PF:1 232x242+1728+540
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+1122+392
+wm geometry .sigmgr._PF:1 300x470+1122+392
+pf:read PF:1 v(y) v(b) v(a)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Mdi:Resize 490 372
+Mdi:Move 5 5
+Graph:Select Graph0
+Mdi:Resize 680 501
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Falltime Graph0 Signal1 {0.1 0.5 0.9} default default xyrangeAll
+# M:0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Falltime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:2
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal2 {0.1 0.5 0.9} default default xyrangeAll
+# M:3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal1 {0.1 0.5 0.9} default default xyrangeAll
+# M:4
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:1 4
+GrMeas:HideResult Graph0 M:1 4
+GrMeas:ShowResult Graph0 M:1 4
+GrMeas:Select Graph0 M:1 4 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:3 4
+GrMeas:HideResult Graph0 M:3 4
+GrMeas:HideResult Graph0 M:3 4
+GrMeas:HideResult Graph0 M:0 4
+GrMeas:HideResult Graph0 M:0 4
+GrMeas:HideResult Graph0 M:4 4
+GrMeas:HideResult Graph0 M:4 4
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.90779253013052 -0.28240133279351} {1.99092n 3.75689n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.92131746039103 -0.36355091435652} {1.9325025961n 2.1318867338n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:2 4
+GrMeas:HideResult Graph0 M:2 4
+GrMeas:ShowResult Graph0 M:2 4
+GrMeas:Select Graph0 M:2 4 1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.96189225117253 -0.24182654201201} {2.01489768028n 2.03255741819n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:2 4
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:HideResult Graph0 M:2 4
+GrMeas:HideResult Graph0 M:2 4
+GrMeas:HideResult Graph0 M:1 4
+GrMeas:HideResult Graph0 M:1 4
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 0 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig {Signal1 Signal2} -region {0 0} -rgnindex {1 2}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.96033217447418 -0.074310624035189} {1.78204n 2.27575n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.96609162413074 -0.10774218947368} {1.9823496761n 2.0856496484n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.96660273688939 -0.068040061619981} {1.68709n 2.42766n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.97784892865926 -0.15085230607823} {1.9266668882n 2.1317477156n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal0 Signal2 either either default default default default 0.5 0.5 xyrangeAll
+# M:5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.96033217447418 -0.036687249543939} {2.75997n 3.29166n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.95406161205897 -0.071175342827585} {2.9717158554n 3.1069172897n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.95041521809272 -0.021521956264562} {2.9755905217n 3.06844656298n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal0 Signal1 either either default default default default 0.5 0.5 xyrangeAll
+# M:6
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) test-1.tr0}}
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/m/mjindal2/ece555/ECE555/AND2_FO4/test-1.tr0 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 232x242+1728+540
+wm geometry .sigmgr._PF:2 232x242+1283+451
+wm geometry .sigmgr._PF:2 373x551+1283+451
+wm geometry .sigmgr._PF:2 232x242+1728+540
+wm geometry .sigmgr._PF:2 232x242+1283+451
+wm geometry .sigmgr._PF:2 373x551+1283+451
+pf:read PF:2 v(y) v(b) v(a)
+# WF:2:1 WF:2:2 WF:2:3
+Graph addsignal {WF:2:1 WF:2:2 WF:2:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Falltime Graph0 Signal1 {0.1 0.5 0.9} default default xyrangeAll
+# M:7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Falltime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:8
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:9
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal1 {0.1 0.5 0.9} default default xyrangeAll
+# M:10
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal2 {0.1 0.5 0.9} default default xyrangeAll
+# M:11
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:8 4
+GrMeas:MoveText Graph0 M:8 4 30.0 30.0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph delsignal selected
+Graph:DSel
+GrMeas:Select Graph0 M:9 4
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 4
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:7 4
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:11 4
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 0 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -rgnindex 2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.9760085805122 -0.068040061619981} {1.64912n 2.28525n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.95433431960223 -0.10382308796417} {1.9988249571n 2.0443984743n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal0 Signal2 either either default default default default 0.5 0.5 xyrangeAll
+# M:12
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal0 Signal1 either either default default default default 0.5 0.5 xyrangeAll
+# M:13
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:13 6
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:12 6
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.94465576843616 -0.086851748865606} {2.81694n 3.31065n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.93865791356421 -0.064632072869119} {2.9785251537n 3.0730902019n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal0 Signal1 either either default default default default 0.5 0.5 xyrangeAll
+# M:14
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) test-1.tr0}}
+Graph0 delsignal Signal2
+Graph0 delsignal Signal1
+Graph0 delsignal Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/m/mjindal2/ece555/ECE555/AND2_FO4/test-1.tr0 1 openonly
+# PF:3
+wm geometry .sigmgr._PF:3 232x242+1728+540
+wm geometry .sigmgr._PF:3 232x242+1113+401
+wm geometry .sigmgr._PF:3 338x574+1113+401
+wm geometry .sigmgr._PF:3 232x242+1728+540
+wm geometry .sigmgr._PF:3 232x242+1113+401
+wm geometry .sigmgr._PF:3 338x574+1113+401
+pf:read PF:3 v(y) v(b) v(a)
+# WF:3:1 WF:3:2 WF:3:3
+Graph addsignal {WF:3:1 WF:3:2 WF:3:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal2 {0.1 0.5 0.9} default default xyrangeAll
+# M:15
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal1 {0.1 0.5 0.9} default default xyrangeAll
+# M:16
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Risetime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:17
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Falltime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:18
+Mdi:ArrangeIcons
+GrMeas:Falltime Graph0 Signal1 {0.1 0.5 0.9} default default xyrangeAll
+# M:19
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:15 4
+GrMeas:MoveText Graph0 M:15 4 30.0 30.0
+Mdi:ArrangeIcons
+Graph delsignal selected
+Graph:DSel
+GrMeas:Select Graph0 M:19 4
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:16 4
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:17 4
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:18 4
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig Signal2 -region 0 -rgnindex 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -rgnindex 2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.94779104964376 -0.027281405921127} {1.83901n 2.21878n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.92897936239814 -0.055498936789564} {1.9944758847n 2.0765082157n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal0 Signal2 either either default default default default 0.5 0.5 xyrangeAll
+# M:20
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.96033217447418 -0.011604999883106} {2.83593n 3.12076n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.93524992481334 -0.036687249543939} {2.99573218975n 3.05269908624n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal0 Signal1 either either default default default default 0.5 0.5 xyrangeAll
+# M:21
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

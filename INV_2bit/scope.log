@@ -1,0 +1,57 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/m/mjindal2/ece555/ECE555/INV_2bit/test-1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+1728+540
+wm geometry .sigmgr._PF:1 231x319+1179+273
+wm geometry .sigmgr._PF:1 232x242+1728+540
+wm geometry .sigmgr._PF:1 232x242+1188+298
+wm geometry .sigmgr._PF:1 450x498+1188+298
+wm geometry .sigmgr._PF:1 232x242+1188+298
+wm geometry .sigmgr._PF:1 450x498+1188+298
+pf:read PF:1 v(in<0>) v(in<1>) v(out<0>) v(out<1>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:Resize 638 536
+Mdi:Move 5 5
+wm geometry .sigmgr 376x204+949+228
+Graph:DSel
+Graph:Select Graph0
+wm geometry .sigmgr 376x204+522+164
+wm geometry .sigmgr 376x204+949+228
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.93606079723318 -0.11439626188553} {790.464p 1.17427n}}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.93606079723318 -0.28947243840531} {988.37558081p 1.0490414654n}}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.93606079723318 -0.13190387953751} {996.777113944p 1.02091965986n}}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.88353794427725 -0.3770105266652} {1.00001875306n 1.02007563736n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.9185531795812 -0.16691911484146} {1.96045n 2.07188n}}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.98858365018912 -0.34199529136125} {2.00263347592n 2.02739506147n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
