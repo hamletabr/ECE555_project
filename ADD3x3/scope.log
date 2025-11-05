@@ -1,0 +1,85 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+4174+111
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/m/mjindal2/ece555/ECE555/ADD3x3/test-1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+2880+543
+wm geometry .sigmgr 376x204+4688+190
+wm geometry .sigmgr 514x671+4688+190
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+4786+403
+wm geometry .sigmgr._PF:1 232x242+2880+543
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+4786+403
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 443x506+4786+403
+wm geometry .sigmgr._PF:1 232x242+4786+403
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 443x506+4786+403
+pf:read PF:1 v(y<2>) v(y<1>) v(y<0>) v(b<2>) v(b<1>) v(b<0>) v(a<2>) v(a<1>) v(a<0>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9} -region {new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8
+ScopeSigMgr:Unload 0 {{(1) test-1.tr0}}
+wm geometry .sigmgr 514x671+5189+94
+wm geometry .sigmgr._PF:1 443x506+5260+272
+Mdi:ArrangeIcons
+wm geometry . 900x785+3853+44
+wm geometry .sigmgr 514x671+4688+190
+wm geometry .sigmgr 514x671+5189+94
+wm geometry .sigmgr._PF:1 443x506+4786+403
+wm geometry .sigmgr._PF:1 443x506+5260+272
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1323x948+3853+44
+Mdi:Resize 1286 812
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+wm geometry . 1323x971+3853+37
+Mdi:Resize 1286 843
+Mdi:Move 5 5
+Mdi:FullSize
+Mdi:ArrangeIcons
+wm geometry . 1323x948+3853+44
+Mdi:ArrangeIcons
+wm geometry . 1323x971+3853+37
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) test-1.tr0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Graph0 delsignal Signal3
+Graph0 delsignal Signal4
+Graph0 delsignal Signal5
+Graph0 delsignal Signal6
+Graph0 delsignal Signal7
+Graph0 delsignal Signal8

@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>ECE555_ADD2x3_1
+			<test>ECE555_ADD3x3_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>ADD2x3</value>
+						<value>ADD3x3</value>
 					</option>
 					<option>lib
 						<value>ECE555</value>
@@ -41,7 +41,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">ECE555_ADD2x3_1</test>
+			<test netlist="0" netlistscope="all">ECE555_ADD3x3_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
