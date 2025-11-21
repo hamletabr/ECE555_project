@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      habrahamyan
+HostName                       linux-2627.cae.wisc.edu
+ProcessIdentifier              3147798
+ProcessCreationTime_UTC        1763710276
+ProcessCreationTime_Readable   Fri Nov 21 01:31:16 2025 CST
+AppIdentifier                  /cae/apps/data/cadence-2025/installs/IC231/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /filespace/h/habrahamyan/ece555/ECE555/ADD3x3/physConfig/physExpand.cfg
+TimeEditLocked                 Fri Nov 21 06:06:26 2025 CST
