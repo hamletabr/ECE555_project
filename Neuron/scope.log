@@ -1,0 +1,15 @@
+Mdi:ArrangeIcons
+wm geometry . 3840x2058+0+32
+Mdi:Resize 3824 1923
+Mdi:Move 5 5
+ScopeSigMgr:loadpffile /filespace/h/habrahamyan/ece555/ECE555/Neuron/test01-2.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(a<0>) v(a<1>) v(add1<0>) v(add1<1>) v(add1<2>) v(add2<0>) v(add2<1>) v(add2<2>) v(b<0>) v(b<1>) v(mult1<0>) v(mult1<1>) v(mult2<0>) v(mult2<1>) v(vdd) v(vss) v(w00<0>) v(w00<1>) v(w10<0>) v(w10<1>) v(w20<0>) v(w20<1>) v(w20<2>) v(y<0>) v(y<1>) v(y<2>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10 WF:1:11 WF:1:12 WF:1:13 WF:1:14 WF:1:15 WF:1:16 WF:1:17 WF:1:18 WF:1:19 WF:1:20 WF:1:21 WF:1:22 WF:1:23 WF:1:24 WF:1:25 WF:1:26
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10 WF:1:11 WF:1:12 WF:1:13 WF:1:14 WF:1:15 WF:1:16 WF:1:17 WF:1:18 WF:1:19 WF:1:20 WF:1:21 WF:1:22 WF:1:23 WF:1:24 WF:1:25 WF:1:26} -region {new new new new new new new new new new new new new new new new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10 Signal11 Signal12 Signal13 Signal14 Signal15 Signal16 Signal17 Signal18 Signal19 Signal20 Signal21 Signal22 Signal23 Signal24 Signal25
+ScopeSigMgr:Unload 0 {{(1) test01-2.tr0}}
+wm geometry .sigmgr._PF:1 290x358+1595+1216
+Graph:Select Graph0
+Graph:DSel
