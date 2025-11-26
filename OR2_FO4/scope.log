@@ -1,0 +1,83 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+-9+77
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+59
+Mdi:ArrangeIcons
+wm geometry . 900x785+35+25
+Mdi:ArrangeIcons
+wm geometry . 900x785+79+24
+Mdi:ArrangeIcons
+wm geometry . 900x785+131+24
+Mdi:ArrangeIcons
+wm geometry . 900x785+183+24
+Mdi:ArrangeIcons
+wm geometry . 900x785+231+24
+Mdi:ArrangeIcons
+wm geometry . 900x785+253+24
+Mdi:ArrangeIcons
+wm geometry . 900x785+255+24
+Mdi:ArrangeIcons
+wm geometry . 3840x2058+0+32
+Mdi:Resize 2436 1863
+Mdi:Move 5 5
+ScopeSigMgr:loadpffile /filespace/m/mjindal2/ece555/ECE555/OR2_FO4/test-1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+wm geometry .sigmgr._PF:1 291x361+1920+1080
+wm geometry .sigmgr._PF:1 293x367+1920+1080
+wm geometry .sigmgr._PF:1 301x380+1920+1080
+wm geometry .sigmgr._PF:1 314x405+1920+1080
+wm geometry .sigmgr._PF:1 338x444+1920+1080
+wm geometry .sigmgr._PF:1 390x504+1920+1080
+wm geometry .sigmgr._PF:1 444x570+1920+1080
+wm geometry .sigmgr._PF:1 512x652+1920+1080
+wm geometry .sigmgr._PF:1 534x674+1920+1080
+wm geometry .sigmgr._PF:1 574x715+1920+1080
+wm geometry .sigmgr._PF:1 582x723+1920+1080
+wm geometry .sigmgr._PF:1 586x726+1920+1080
+wm geometry .sigmgr._PF:1 588x729+1920+1080
+wm geometry .sigmgr._PF:1 589x730+1920+1080
+wm geometry .sigmgr._PF:1 589x731+1920+1080
+wm geometry .sigmgr._PF:1 590x732+1920+1080
+wm geometry .sigmgr._PF:1 590x733+1920+1080
+wm geometry .sigmgr._PF:1 591x734+1920+1080
+wm geometry .sigmgr._PF:1 591x734+1911+1072
+wm geometry .sigmgr._PF:1 591x734+1917+1072
+wm geometry .sigmgr._PF:1 591x734+1932+1070
+wm geometry .sigmgr._PF:1 591x734+1964+1067
+wm geometry .sigmgr._PF:1 591x734+2017+1057
+wm geometry .sigmgr._PF:1 591x734+2083+1045
+wm geometry .sigmgr._PF:1 591x734+2165+1031
+wm geometry .sigmgr._PF:1 591x734+2267+1017
+wm geometry .sigmgr._PF:1 591x734+2371+1003
+wm geometry .sigmgr._PF:1 591x734+2509+983
+wm geometry .sigmgr._PF:1 591x734+2571+973
+wm geometry .sigmgr._PF:1 591x734+2611+963
+wm geometry .sigmgr._PF:1 591x734+2625+957
+wm geometry .sigmgr._PF:1 591x734+2634+954
+wm geometry .sigmgr._PF:1 591x734+2649+949
+wm geometry .sigmgr._PF:1 591x734+2662+945
+wm geometry .sigmgr._PF:1 591x734+2671+942
+wm geometry .sigmgr._PF:1 591x734+2681+939
+wm geometry .sigmgr._PF:1 591x734+2688+936
+wm geometry .sigmgr._PF:1 591x734+2692+934
+wm geometry .sigmgr._PF:1 591x734+2696+931
+wm geometry .sigmgr._PF:1 591x734+2698+929
+wm geometry .sigmgr._PF:1 591x734+2698+928
+pf:read PF:1 v(y) v(b) v(a)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 2 -rgnindex 1
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -region 1 -rgnindex 2
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.90758194844496 -0.028310528607255} {960.861p 1.11197n}}
+GrMeas:Delay Graph0 Signal0 Signal1 either either default default default default 0.5 0.5 xyrangeAll
+# M:0

@@ -1,0 +1,4 @@
+Mdi:Resize 830 624
+Mdi:Move 5 5
+ScopeSigMgr:loadpffile /filespace/m/mjindal2/ece555/ECE555/NAND2_FO4/test-1.tr0 1 openonly
+# {}

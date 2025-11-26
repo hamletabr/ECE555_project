@@ -1,0 +1,24 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "X-2025.06 linux64"
+* "format" "HSP"
+* "rundate" "22:27:30 11/25/2025 "
+* "netlist" "test-1.sp "
+* "runtitle" "**test"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-18   
+.nodeset
++ a = 0.0000000e+00   
++ b = 0.0000000e+00   
++ net11 = 2.2963067e-07   
++ net15 = 2.2963067e-07   
++ net19 = 2.2963067e-07   
++ net7 = 2.2963067e-07   
++ vdd = 9.0000000e-01   
++ vss = 0.0000000e+00   
++ y = 8.9999990e-01   
++ xi0.net11 = 3.1668957e-02   
++ xi0.net6 = 3.1668957e-02   
+***   END: Saved Operating Point ***                     
