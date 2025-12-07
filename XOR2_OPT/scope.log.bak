@@ -1,0 +1,61 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+1734+330
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/h/habrahamyan/ece555/ECE555/XOR2_OPT/test-1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(b) v(a) v(y)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+wm geometry .sigmgr 467x236+2158+529
+wm geometry .sigmgr 467x236+2162+535
+wm geometry .sigmgr 467x236+2191+582
+wm geometry .sigmgr 467x236+2225+628
+wm geometry .sigmgr 467x236+2265+682
+wm geometry .sigmgr 467x236+2299+736
+wm geometry .sigmgr 467x236+2333+784
+wm geometry .sigmgr 467x236+2369+832
+wm geometry .sigmgr 467x236+2413+880
+wm geometry .sigmgr 467x236+2465+934
+wm geometry .sigmgr 467x236+2523+990
+wm geometry .sigmgr 467x236+2583+1046
+wm geometry .sigmgr 467x236+2637+1092
+wm geometry .sigmgr 467x236+2681+1132
+wm geometry .sigmgr 467x236+2730+1171
+wm geometry .sigmgr 467x236+2739+1176
+wm geometry .sigmgr 467x236+2743+1178
+wm geometry .sigmgr 467x236+2745+1179
+wm geometry .sigmgr 467x236+2746+1179
+wm geometry .sigmgr 467x236+2748+1178
+wm geometry .sigmgr 467x236+2754+1173
+wm geometry .sigmgr 467x236+2763+1163
+wm geometry .sigmgr 467x236+2779+1142
+wm geometry .sigmgr 467x236+2801+1114
+wm geometry .sigmgr 467x236+2847+1063
+wm geometry .sigmgr 467x236+2881+1033
+wm geometry .sigmgr 467x236+2913+1005
+wm geometry .sigmgr 467x236+2940+977
+wm geometry .sigmgr 467x236+2966+946
+wm geometry .sigmgr 467x236+2983+925
+wm geometry .sigmgr 467x236+2993+916
+wm geometry .sigmgr 467x236+2997+910
+wm geometry .sigmgr 467x236+2999+908
+wm geometry .sigmgr 467x236+2999+907
+wm geometry .sigmgr 467x236+2994+897

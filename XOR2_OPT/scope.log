@@ -1,0 +1,64 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+2014+505
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/h/habrahamyan/ece555/ECE555/XOR2_OPT/test-1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(a) v(b) v(y)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.88294730780474 -0.0060376258420938} {485.82p 4.5788n}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {{-667.34p 4.3327n exact} {3.6275416758035 2.1275416758035 exact}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.62238275828757 1.2508031424172} {2.4285n 1.4942n}}
+Mdi:ArrangeIcons
+wm geometry . 3840x2058+0+32
+Mdi:Resize 3821 1921
+Mdi:Move 5 5
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {{1.69208329932n 2.69208329932n exact} {0.96845544047361 0.26845544047361 exact}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {{1.66645736448n 2.66645736448n exact} {1.1946717644826 0.49467176448259 exact}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Graph:DSel
