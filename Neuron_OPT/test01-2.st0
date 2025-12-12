@@ -1,0 +1,67 @@
+****** PrimeSim HSPICE -- X-2025.06 linux64 (May 22 2025 9830940) ******
+Input File: test01-2.sp
+lic:
+lic: FLEXlm: SDK_14.10
+lic: USER:   mjindal2             HOSTNAME: linux-2622
+lic: HOSTID: 7f0101               PID:      3746812
+lic: Using FLEXlm license file:
+lic: 27180@synopsys.license.cae.wisc.edu
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 23-jan-2027/2024.09
+lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27180@synopsys.license.cae.wisc.edu
+lic:
+
+ init: begin read circuit files, cpu clock= 9.12E-02
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/ad
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/behave
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/bjt
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/burr_brn
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/comlinear
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/dio
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/fet
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/lin_tech
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/pci
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/signet
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/ti
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/tline
+       option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/xilinx
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+       option hier_delim =     0.00
+       option probe
+       option cshunt =    1.000E-18
+       option numdgt =     8.00
+       option measdgt =     5.00
+       option gmindc =    1.000E-18
+       option delmax =    1.000E-09
+       option method = gear
+       option ingold =     2.00
+       option post =     1.00
+ init: end read circuit files, cpu clock= 1.13E-01 peak memory=     512 mb
+ init: begin check errors, cpu clock= 1.13E-01
+ init: end check errors, cpu clock= 1.39E-01 peak memory=     512 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.39E-01
+       establish matrix -- done, cpu clock= 1.40E-01 peak memory=     512 mb
+       re-order matrix -- done, cpu clock= 1.87E-01 peak memory=     521 mb
+ init: end setup matrix, cpu clock= 1.96E-01 peak memory=     521 mb
+ dcop: begin dcop, cpu clock= 1.97E-01
+       establish matrix -- done, cpu clock= 2.10E-01 peak memory=     521 mb
+       re-order matrix -- done, cpu clock= 2.32E-01 peak memory=     525 mb
+ dcop: end dcop, cpu clock= 2.67E-01 peak memory=     525 mb tot_iter=      18
+ output: test01-2.tr
+ sweep: tran tran0    begin, stop_t=  5.00E-09 #sweeps= 501 cpu clock= 2.71E-01
+ tran: time= 5.7000E-10 tot_iter=       7 conv_iter=       8 cpu clock= 2.76E-01
+ tran: time= 1.0000E-09 tot_iter=      11 conv_iter=      12 cpu clock= 2.77E-01
+ tran: time= 1.5335E-09 tot_iter=     415 conv_iter=     171 cpu clock= 4.14E-01
+ tran: time= 2.0000E-09 tot_iter=     422 conv_iter=     176 cpu clock= 4.17E-01
+ tran: time= 2.5000E-09 tot_iter=     724 conv_iter=     294 cpu clock= 5.26E-01
+ tran: time= 3.0000E-09 tot_iter=     812 conv_iter=     333 cpu clock= 5.56E-01
+ tran: time= 3.5292E-09 tot_iter=    1185 conv_iter=     496 cpu clock= 7.00E-01
+ tran: time= 4.0000E-09 tot_iter=    1192 conv_iter=     502 cpu clock= 7.02E-01
+ tran: time= 4.5962E-09 tot_iter=    1646 conv_iter=     690 cpu clock= 8.67E-01
+ tran: time= 5.0000E-09 tot_iter=    1650 conv_iter=     693 cpu clock= 8.68E-01
+ sweep: tran tran0    end, cpu clock= 8.71E-01 peak memory=     525 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
