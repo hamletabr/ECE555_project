@@ -13,7 +13,7 @@ Key objectives:
 - Analyze performance metrics such as delay, power, and noise margins
 
 ## Perceptron Design
-![Multi-layer Perceptron Illustration](assets/Perceptron.png)
+![Multi-layer Perceptron Illustration](PERCEPTRON/Perceptron.png)
 
 ## ⚙️ Tools and Technologies
 
