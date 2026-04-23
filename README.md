@@ -10,7 +10,10 @@ Key objectives:
 - Design CMOS-based logic gates at the transistor level  
 - Construct a neuron architecture using digital circuit blocks  
 - Verify functionality through circuit simulation  
-- Analyze performance metrics such as delay, power, and noise margins  
+- Analyze performance metrics such as delay, power, and noise margins
+
+## Perceptron Design
+![Multi-layer Perceptron Illustration](assets/Perceptron.png)
 
 ## ⚙️ Tools and Technologies
 
